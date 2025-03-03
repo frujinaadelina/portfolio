@@ -1,9 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1{
+    color: #000;
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+
 h3{
     color: #6273FF;
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+p{
+    color: #555;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -18,7 +42,7 @@ h3{
 
 .content{
     display: flex;
-    padding: 24px 360px 64px 360px;
+    padding: 24px 20%;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
@@ -77,4 +101,125 @@ h3{
     align-items: center;
     gap: 10px;
     flex: 1 0 0;
+}
+
+.button_dark_mode{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.img_dark_mode{
+    width: 40px;
+    height: 40px;
+}
+
+.card{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #F3F4F9;
+}
+
+.card_body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.avatar_photo{
+    width: 131px;
+    height: 130px;
+}
+
+.button{
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #E3CDF3;
+    border:none;
+}
+
+.card_buttons{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card_header{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;    
+}
+
+.card_title{
+    flex: 1 0 0;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.card_company{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card_company_name{
+    color: #555;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_company_logo{
+    width: 24px;
+    height: 24px;
+}
+
+.card_body{
+    color: #555;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_name{
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.section_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
 }

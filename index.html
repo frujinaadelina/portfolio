@@ -19,20 +19,72 @@
                 <h3 class="logo_name">Frujina Oana Adelina</h3>
             </a>
             <div class="nav_button">
-                <input type="button" name="dark mode" value="sun" aria-label="Toggle dark mode"/>
+                <button name="dark_mode" class="button_dark_mode">
+                    <img src="assets/sun.svg" alt="light mode" class="img_dark_mode"/>
+                </button>
             </div>
         </header>
 
         <div class="content">
-            <div class="card"></div>
-            <section>
-                <h3>My recent work</h3>
-                <div class="card"></div>
+            <div class="card">
+                <img src="assets/photo.svg" alt="avatar photo" class="avatar_photo"/>
+                <div class="card_body">
+                    <h1>Hi, I’m Adelina. 👋🏻</h1>
+                    <p>I’m <span style="color: #6273FF; font-weight: bold;">UX Designer</span> at Metro Digital. I craft intuitive, user-centered experiences built on a strong technical foundation. <span style="color: #6273FF; font-weight: bold;">With a past in software engineering and a degree in computer science</span>, I bridge the gap between design and technology to create seamless digital products.</p>
+                </div>
+                <div class="card_buttons">
+                    <button name="download_resume" class="button" type="button">
+                        <img src="assets/download.svg"/>
+                        DOWNLOAD RESUME
+                    </button>
+                    <button name="download_resume" class="button" type="button">
+                        <img src="assets/copy.svg"/>
+                        COPY EMAIL
+                    </button>
+                </div>
+            </div>
+            <section class="section_cards">
+                <h3 class="section_name">My recent work</h3>
+                <div class="card">
+                    <div class="card_header">
+                        <h3 class="card_title">Stock Location Tracker</h3>
+                        <div class="card_company">
+                            <span class="card_company_name">Metro.Digital</span>
+                            <img src="assets/logo_MetroDigital.svg" alt="logo Metro Digital" class="card_company_logo" />
+                        </div>
+                    </div>
+                    <div class="card_body">
+                        I designed a Store Mobile App for store and forklift workers to help them manage stock and pallets efficiently. The system assigns tasks based on real-time stock data to improve accuracy, shelf availability, and productivity.
+                        As the sole UX designer, I led the entire design process—from research and process mapping to MVP design and usability testing—ensuring a smooth and user-friendly experience for employees.
+                    </div>
+                </div>
             </section>
-            <section>
-                <h3>Other projects</h3>
-                <div class="card"></div>
-                <div class="card"></div>
+            <section class="section_cards">
+                <h3 class="section_name">Other projects</h3>
+                <div class="card">
+                    <div class="card_header">
+                        <h3 class="card_title">Multichannel Engine</h3>
+                        <div class="card_company">
+                            <span class="card_company_name">ING Tech Romania</span>
+                            <img src="assets/logo_ING.svg" alt="logo ING" class="card_company_logo" />
+                        </div>
+                    </div>
+                    <div class="card_body">
+                        I taught UX to a development team and led the redesign process for a global application used by users from over 20 countries (Europe & Asia) to capture different types of transactions.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_header">
+                        <h3 class="card_title">Cash Collection System</h3>
+                        <div class="card_company">
+                            <span class="card_company_name">ING Bank</span>
+                            <img src="assets/logo_ING.svg" alt="logo ING" class="card_company_logo" />
+                        </div>
+                    </div>
+                    <div class="card_body">
+                        I designed an application that automates cash collection bank flow and helps the employees to manipulate clients data and to take decisions about transactions.
+                    </div>
+                </div>
             </section>
         </div>
     
